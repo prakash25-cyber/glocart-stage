@@ -43,6 +43,8 @@ glocart-stage/
             ├── backend-deployment.yaml  # Backend deployment & service rules
             ├── frontend-deployment.yaml # Frontend deployment & service rules
             └── kustomization.yaml       # Kustomize compiler configuration
+
+
 ```
 🛠️ Prerequisites & Tools
 
