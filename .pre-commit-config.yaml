@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/trufflesecurity/trufflehog
+    rev: v3.82.0
+    hooks:
+      - id: trufflehog
+        name: TruffleHog Secret Scan
+        description: Detects hardcoded secrets, API keys, and passwords locally.
+  
+  - repo: https://github.com/antonbabenko/pre-commit-terraform
+    rev: v1.88.0
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_validate
+      - id: terraform_tflint
