@@ -1,7 +1,7 @@
 # Terraform configure to the gcp providers 
 terraform {
     required_version = ">=1.0"
-    required_providers {
+    required_provider {
         google = {
             source = "hashicorp/google"
             version ="~>5.0"
